@@ -1,0 +1,28 @@
+{
+  "name": "ssh-manage",
+  "version": "0.0.1",
+  "author": {
+    "name": "xiaojue",
+    "email": "designsor@gmail.com",
+    "url": "http://tuer.me/user/profile/designsor"
+  },
+  "description": "ssh manage proxy users for root",
+  "keywords": [
+    "ssh",
+    "root",
+	"sshd",
+	"proxy"
+  ],
+  "bin":{
+    "ssh-manage":"bin/sshmanage.js"  
+   },
+  "dependencies": {
+	"execSync":"*",
+    "commander":"*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaojue/ssh-manage"
+  },
+  "license": "MIT"
+}
