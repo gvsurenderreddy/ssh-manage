@@ -10,15 +10,16 @@
   "keywords": [
     "ssh",
     "root",
-	"sshd",
-	"proxy"
+    "sshd",
+    "proxy"
   ],
-  "bin":{
-    "ssh-manage":"bin/sshmanage.js"  
-   },
+  "bin": {
+    "ssh-manage": "bin/sshmanage.js"
+  },
   "dependencies": {
-	"execSync":"*",
-    "commander":"*"
+    "execSync": "*",
+    "commander": "*",
+    "prompt": "~0.2.12"
   },
   "repository": {
     "type": "git",
